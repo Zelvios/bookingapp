@@ -1,15 +1,15 @@
-<script>
-import Header from '../components/Header.svelte';
+<script lang="ts">
+	import '../app.css';
 </script>
 
-<Header/>
-<main>
-	<h3>
-		Main page Content
-	</h3>
-	<a href="/home">Home</a>
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
+
+<section>
+	<h1>HOME</h1>
+</section>
+
+<main class="bg-white dark:bg-gray-800">
 </main>
-
-<style>
-
-</style>
